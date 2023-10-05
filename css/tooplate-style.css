@@ -213,7 +213,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-  background: url('../images/redbull.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/pexels-wallace-chuck-4172278.jpg') 50% 0 repeat-y fixed;
   background-size: cover;
   background-position: center center;
   display: -webkit-box;
@@ -230,7 +230,7 @@ a:hover, a:active, a:focus {
 }
 
 #client {
-  background: url('../images/ducatiFondo.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/ducaFondo.jpg') 50% 0 repeat-y fixed;
   background-size: cover;
   background-position: center center;
   display: -webkit-box;
@@ -557,13 +557,13 @@ footer p {
 
 
 .antesMM img{
-  width: 350px;
-  height: 500px;
+  width: 300px;
+  height: 600px;
 }
 
 .despuesMM img{
-  width: 350px;
-  height: 500px;
+  width: 300px;
+  height: 600px;
 }
 
 .antesDucati{
