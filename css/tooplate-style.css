@@ -55,7 +55,8 @@ h3 {
 }
 
 h4 {
-  color: #353535;
+  /* color: #353535; */
+  color: white;
   font-size: 20px;
 }
 
@@ -213,7 +214,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-  background: url('../images/pexels-wallace-chuck-4172278.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/redesHorizontal.jpg') 50% 0 repeat-y fixed;
   background-size: cover;
   background-position: center center;
   display: -webkit-box;
@@ -230,7 +231,7 @@ a:hover, a:active, a:focus {
 }
 
 #client {
-  background: url('../images/ducaFondo.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/redesHorizontal.jpg') 50% 0 repeat-y fixed;
   background-size: cover;
   background-position: center center;
   display: -webkit-box;
@@ -252,6 +253,9 @@ a:hover, a:active, a:focus {
 
 .service-thumb {
   background: #dfdcdc;
+  background: url(../images/pexels-wallace-chuck-4172278.jpg);
+  background-size: cover;
+  background-position: center center;
   border-radius: 5px;
   padding: 42px 22px;
   cursor: crosshair;
@@ -276,7 +280,7 @@ a:hover, a:active, a:focus {
 }
 
 .service-thumb .fa {
-  color: #7682cc;
+  color: #ffffff;
   font-size: 62px;
   text-align: center;
   margin-top: 32px;
@@ -393,7 +397,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact button#submit:hover {
-  background: #beb72c;
+  background: #be2c2c;
   color: #ffffff;
 }
 
@@ -404,7 +408,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 footer {
-  background: #beb72c;
+  background: #be2c2c;
   text-align: center;
   padding: 120px 0;
 }
