@@ -469,23 +469,11 @@ footer p {
 @media (max-width: 980px) {
   #home {
     height: 55vh;
-    background: url('../images/redesVertical.jpg') 50% 0 repeat-y fixed;
-    background-size: cover;
-    background-position: center center;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    height: 100vh;
-    position: relative;
-    text-align: right;
+    background: url('../images/cielo.jpg') 50% 0 repeat-y fixed;
   }
   #client {
     height: 55vh;
+    background: url('../images/cielo.jpg') 50% 0 repeat-y fixed;
   }
 
   .service-thumb {
