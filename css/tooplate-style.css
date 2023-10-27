@@ -468,11 +468,10 @@ footer p {
 
 @media (max-width: 980px) {
   #home {
-    height: 55vh;
     background: url('../images/redesVertical.jpg') 
   }
   #client {
-    height: 55vh; 
+    background: url('../images/redesVertical.jpg') 
   }
 
   .service-thumb {
