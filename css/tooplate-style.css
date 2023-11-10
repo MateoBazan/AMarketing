@@ -221,15 +221,6 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-  background: url('../images/redesHorizontal.jpg') 50% 0 repeat-y fixed;
-  background-size: cover;
-  align-items: center;
-  height: 100vh;
-  display: flex;
-  text-align: right;
-}
-
-#client {
   background: url('../images/redesHorizontal.jpg');
   background-size: cover;
   align-items: center;
@@ -238,9 +229,18 @@ a:hover, a:active, a:focus {
   text-align: right;
 }
 
-
 /* #client {
-  background: url('../images/redesHorizontal.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/redesHorizontal.jpg');
+  background-size: cover;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  text-align: right;
+} */
+
+
+#client {
+  background: url('../images/redesHorizontal.jpg');
   background-size: cover;
   background-position: center center;
   display: -webkit-box;
@@ -254,7 +254,7 @@ a:hover, a:active, a:focus {
   height: 100vh;
   position: relative;
   text-align: right;
-} */
+}
 /*---------------------------------------
   Service section              
 -----------------------------------------*/
