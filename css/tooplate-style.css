@@ -220,7 +220,7 @@ a:hover, a:active, a:focus {
   -ms-flex-align: center; *  
 -----------------------------------------*/
 
-#home {
+/* #home {
   background: url('../images/redesHorizontal.jpg') 50% 0 ;
   background-repeat: repeat-y;
   background-attachment: fixed;
@@ -229,7 +229,7 @@ a:hover, a:active, a:focus {
   height: 100vh;
   display: flex;
   text-align: right;
-}
+} */
 
 /* #client {
   background: url('../images/redesHorizontal.jpg');
@@ -242,9 +242,7 @@ a:hover, a:active, a:focus {
 
 
 #client {
-  background: url('../images/redesHorizontal.jpg') 50% 0 ;
-  background-repeat: repeat-y;
-  background-attachment: fixed;
+  background: url('../images/redesHorizontal.jpg');
   background-size: cover;
   background-position: center center;
   display: -webkit-box;
