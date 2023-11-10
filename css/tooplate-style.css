@@ -217,13 +217,13 @@ a:hover, a:active, a:focus {
   background: url('../images/redesHorizontal.jpg') 50% 0 repeat-y fixed;
   background-size: cover;
   background-position: center center;
-  display: -webkit-box;
+  /* display: -webkit-box;
   display: -webkit-flex;
-   display: -ms-flexbox;
-  display: flex;
+   display: -ms-flexbox; */
+  display: flex;/* 
   -webkit-box-align: center;
   -webkit-align-items: center;
-  -ms-flex-align: center;
+  -ms-flex-align: center; */
    align-items: center;
   height: 100vh;
   position: relative;
@@ -458,23 +458,20 @@ footer p {
   color: #ffffff;
   transform: scale(1.1);
   top: -5px;
-}
-
-
-
-/*---------------------------------------
+} 
+/*--------------------------------
   Mobile Responsive styles              
 -----------------------------------------*/
 
 @media (max-width: 980px) {
-  #home {
+  /* #home {
     background: url('../images/redesVertical.jpg');
     background-size: cover;
     background-position: center top;
   }
   #client {
     background: url('../images/redesVertical.jpg') 
-  }
+  } */
 
   .service-thumb {
     margin-top: 12px;
@@ -486,7 +483,7 @@ footer p {
   }
 }
 
-
+/* 
 @media (max-width: 768px) {
   #home {
     height: 85vh;
@@ -497,7 +494,7 @@ footer p {
     background: url('../images/redesVertical.jpg');
   }
 }
-
+ */
 
 @media (max-width: 580px) {
 
@@ -509,7 +506,7 @@ footer p {
     font-size: 23px;
   }
 
-  #home {
+  /* #home {
     height: 95vh;
     background: url('../images/redesVertical.jpg');
   }
@@ -517,7 +514,7 @@ footer p {
   #client {
     height: 95vh;
     background: url('../images/redesVertical.jpg');
-  }
+  } */
 
   .contact-info {
     margin-top: 42px;
@@ -525,7 +522,7 @@ footer p {
 }
 
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
   #home {
     height: 125vh;
     background: url('../images/redesVertical.jpg');
@@ -535,7 +532,7 @@ footer p {
     height: 125vh;
     background: url('../images/redesVertical.jpg');
   }
-}
+} */
 
 
 /*---------------------------------------
