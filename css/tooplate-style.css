@@ -210,27 +210,37 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-  Home section              
------------------------------------------*/
-
-#home {
-  background: url('../images/redesHorizontal.jpg') /* 50% 0 repeat-y fixed */;
-  background-size: cover;/* 
-  background-position: center center; */
+  Home section 
   /* display: -webkit-box;
   display: -webkit-flex;
    display: -ms-flexbox; */
-  display: flex;/* 
+  /* 
   -webkit-box-align: center;
   -webkit-align-items: center;
-  -ms-flex-align: center; */
-   align-items: center;
+  -ms-flex-align: center; *  
+-----------------------------------------*/
+
+#home {
+  background: url('../images/redesHorizontal.jpg') 50% 0 repeat-y fixed;
+  background-size: cover;
+  align-items: center;
   height: 100vh;
-  /* position: relative; */
+  display: flex;
   text-align: right;
 }
 
 #client {
+  background: url('../images/redesHorizontal.jpg');
+  background-size: cover;
+  display: flex;
+  -ms-flex-align: center;
+   align-items: center;
+  height: 100vh;
+  text-align: right;
+}
+
+
+/* #client {
   background: url('../images/redesHorizontal.jpg') 50% 0 repeat-y fixed;
   background-size: cover;
   background-position: center center;
@@ -245,8 +255,7 @@ a:hover, a:active, a:focus {
   height: 100vh;
   position: relative;
   text-align: right;
-}
-
+} */
 /*---------------------------------------
   Service section              
 -----------------------------------------*/
