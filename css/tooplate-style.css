@@ -221,7 +221,9 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-  background: url('../images/redesHorizontal.jpg');
+  background: url('../images/redesHorizontal.jpg') 50% 0 ;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
   background-size: cover;
   align-items: center;
   height: 100vh;
@@ -240,7 +242,9 @@ a:hover, a:active, a:focus {
 
 
 #client {
-  background: url('../images/redesHorizontal.jpg');
+  background: url('../images/redesHorizontal.jpg') 50% 0 ;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
   background-size: cover;
   background-position: center center;
   display: -webkit-box;
